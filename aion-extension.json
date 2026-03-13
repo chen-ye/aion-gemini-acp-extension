@@ -1,5 +1,5 @@
 {
-  "name": "gemini-acp-adapter",
+  "name": "aion-gemini-acp-extension",
   "displayName": "Gemini CLI ACP Adapter",
   "version": "1.0.0",
   "description": "An ACP adapter for Gemini CLI, enabling advanced agentic capabilities.",
