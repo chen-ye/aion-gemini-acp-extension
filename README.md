@@ -26,7 +26,7 @@ Based off of the extension examples in https://github.com/iOfficeAI/AionUi/tree/
 2. Clone this extension folder into the AionUI extensions directory. **Note:** The directory name must match the extension ID and symbolic links are **not** supported:
    ```bash
    cd ~/.aionui/extensions
-   git clone https://github.com/chen-ye/gemini-acp-adapter.git gemini-acp-adapter
+   git clone https://github.com/chen-ye/aion-gemini-acp-extension.git gemini-acp-adapter
    ```
 
 3. Restart AionUI. The "Gemini CLI" agent should now appear in the agent selection list.
