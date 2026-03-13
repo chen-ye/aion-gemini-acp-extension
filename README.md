@@ -22,9 +22,10 @@ This extension enables [AionUI](https://github.com/iOfficeAI/AionUi) to use Gemi
    - **macOS/Linux:** `~/.aionui/extensions/`
    - **Windows:** `%USERPROFILE%\.aionui\extensions\`
 
-2. Copy this extension folder into the AionUI extensions directory:
+2. Clone this extension folder into the AionUI extensions directory:
    ```bash
-   cp -r . ~/.aionui/extensions/gemini-acp-extension
+   cd ~/.aionui/extensions
+   git clone https://github.com/chen-ye/aion-gemini-acp-extension.git
    ```
 
 3. Restart AionUI. The "Gemini CLI" agent should now appear in the agent selection list.
