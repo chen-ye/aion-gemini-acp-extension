@@ -1,8 +1,8 @@
 {
   "name": "gemini-acp-adapter",
-  "displayName": "%extension.name%",
+  "displayName": "Gemini CLI ACP Adapter",
   "version": "1.0.0",
-  "description": "%extension.description%",
+  "description": "An ACP adapter for Gemini CLI, enabling advanced agentic capabilities.",
   "author": "Gemini CLI Contributors",
   "i18n": {
     "localesDir": "i18n",
@@ -12,8 +12,8 @@
     "acpAdapters": [
       {
         "id": "gemini-cli-agent",
-        "name": "%adapter.gemini.name%",
-        "description": "%adapter.gemini.description%",
+        "name": "Gemini CLI",
+        "description": "Gemini CLI agent with full tool-use and MCP server integration.",
         "connectionType": "cli",
         "cliCommand": "gemini",
         "defaultCliPath": "gemini",
