@@ -1,6 +1,7 @@
 # Gemini CLI ACP Adapter Extension
 
 This extension enables [AionUI](https://github.com/iOfficeAI/AionUi) to use Gemini CLI as an AI agent backend via the Agent Client Protocol (ACP).
+Based off of the extension examples in https://github.com/iOfficeAI/AionUi/tree/main/examples.
 
 ## Features
 
