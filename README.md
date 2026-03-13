@@ -29,13 +29,3 @@ This extension enables [AionUI](https://github.com/iOfficeAI/AionUi) to use Gemi
    ```
 
 3. Restart AionUI. The "Gemini CLI" agent should now appear in the agent selection list.
-
-## Protocol Verification
-
-This extension uses the `--experimental-acp` flag to start Gemini CLI in ACP mode. You can manually verify the protocol is working by running:
-
-```bash
-echo '{"jsonrpc":"2.0","method":"initialize","params":{"protocolVersion":1,"clientInfo":{"name":"Test"}},"id":1}' | gemini --experimental-acp
-```
-
-(Note: The process will wait for further input after responding, as it is a persistent server).
