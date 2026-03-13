@@ -1,0 +1,29 @@
+{
+  "name": "gemini-acp-adapter",
+  "displayName": "%extension.name%",
+  "version": "1.0.0",
+  "description": "%extension.description%",
+  "author": "Gemini CLI Contributors",
+  "i18n": {
+    "localesDir": "i18n",
+    "defaultLocale": "en-US"
+  },
+  "contributes": {
+    "acpAdapters": [
+      {
+        "id": "gemini-cli-agent",
+        "name": "%adapter.gemini.name%",
+        "description": "%adapter.gemini.description%",
+        "connectionType": "cli",
+        "cliCommand": "gemini",
+        "defaultCliPath": "gemini",
+        "acpArgs": [
+          "--experimental-acp"
+        ],
+        "icon": "assets/gemini.svg",
+        "authRequired": true,
+        "supportsStreaming": true
+      }
+    ]
+  }
+}

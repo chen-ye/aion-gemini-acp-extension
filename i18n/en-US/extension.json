@@ -1,0 +1,6 @@
+{
+  "extension.name": "Gemini CLI ACP Adapter",
+  "extension.description": "An ACP adapter for Gemini CLI, enabling advanced agentic capabilities.",
+  "adapter.gemini.name": "Gemini CLI",
+  "adapter.gemini.description": "Gemini CLI agent with full tool-use and MCP server integration."
+}
